@@ -8,7 +8,7 @@ Requirements
 Select ONE Additional Feature to Add  
 [ yes ] Feature 1 - Include :hover Effect 
 [ no ] Feature 2 - Change the <li> markers
-[ no ] Feature 3 - Change the Favicon
+[ yes ] Feature 3 - Change the Favicon
 [ no ] Feature 4 - Include Hand Drawn Border
 [ no ] Feature 5 - Use background-blend-mode: overlay
 -->
@@ -21,7 +21,7 @@ Select ONE Additional Feature to Add
   <meta charset="utf-8">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=DynaPuff:wght@400..700&family=Kalnia:wght@100..700&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
 <link rel="icon" type="image/x-icon" href="img/pinopito logo.jpg">
   <style>
 
@@ -51,18 +51,7 @@ Select ONE Additional Feature to Add
     }
 
     h2{
-      font-family: DynaPuff, sans-serif;
       font-size: 40px;
-      color: transparent;
-      background-color: rgb(255, 132, 173);
-      -webkit-text-stroke: white 2px;
-      background-clip: text;
-      background-image: url(https://i.pinimg.com/originals/bb/f1/35/bbf135d9da75244d56a78fa50bf40c69.gif);
-      background-repeat:repeat-y;
-      background-size:100%
-      padding: 10px;
-      border-radius: 20px;
-      width: fit-content;
     }
 
     p{
@@ -82,6 +71,11 @@ Select ONE Additional Feature to Add
       border: 10px dashed white;
     }
 
+    iframe{
+      border-radius: 30px;
+      border: 10px dashed white;
+    }
+
     table{
       color: transparent;
       font-size: 20px;
@@ -97,35 +91,70 @@ Select ONE Additional Feature to Add
       border-color: rgb(255, 255, 255);
       border-radius:10px;
     }
-
-    td:hover{
-      background-color: rgb(255, 219, 242);
-    }
+        td:hover{
+          background-color: rgb(255, 219, 242);
+        }
 
     a{
       color:rgb(132, 132, 255);
       text-decoration: none;
     }
-
-     a:hover{
-      background-color: rgb(255, 219, 242);
-      color: rgb(170, 173, 255);
-      font-size: 22px;
-    }
+        a:hover{
+         background-color: rgb(255, 219, 242);
+          color: rgb(170, 173, 255);
+        }
 
     #icon{
       border-radius: 100%;
-      border: 10px double white
+      border: 10px double white;
     }
 
-    #slowmotion{
+    .mascots{
+      border: none;
+    }
+
+    #intro{
+      font-family: DynaPuff, sans-serif;
+      color: transparent;
+      background-color: rgb(255, 132, 173);
+      -webkit-text-stroke: white 2px;
+      background-clip: text;
+      background-image: url(https://i.pinimg.com/originals/bb/f1/35/bbf135d9da75244d56a78fa50bf40c69.gif);
+      background-repeat:repeat-y;
+      background-size:100%;
+      padding: 10px;
+      border-radius: 20px;
+      width: fit-content;
+    }
+
+    #para{
+      color:rgb(222, 223, 255)
+    }
+        #para:hover{
+          background-color: rgb(255, 219, 242);
+          border-radius: 15px;
+          color: rgb(170, 173, 255);
+        }
+
+    .slowmotionp{
       border-radius: 20px;
       background-color: transparent;
       background-clip: border-box;
       background-image: url(https://wallpapers.com/images/hd/yami-kawaii-tsbzgpmz93whugl6.jpg);
       background-repeat: repeat-y;
       background-size: 100%;
-      font-family:
+      cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>💊</text></svg>") 16 0,auto; /*!emojicursor.app*/
+    }
+
+    #song1{
+      font-family: Pixelify Sans, sans-serif;
+      font-weight:700;
+      background-color: white;
+      color:rgb(255, 165, 228);
+      border-radius: 20px;
+      padding: 10px;
+      width: fit-content;
+      text-decoration: 5px underline rgb(222, 246, 255);
       cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>💊</text></svg>") 16 0,auto; /*!emojicursor.app*/
     }
 
@@ -137,6 +166,7 @@ Select ONE Additional Feature to Add
     my fave vocaloid producer!</h1>
 
   <center><img src="img/pinop.gif" width="80%"></center>
+  <br><br>
 
   <center><table>
     <td><a href="#intro">
@@ -151,6 +181,9 @@ Select ONE Additional Feature to Add
     <td><a href="song3">
       ♫ song 3  ⊹♡
     </a></td>
+    <td><a href="#extra">
+      ꒰ა extra ✦ 
+    </a></td>
   </table></center>
 
   <h2 id="intro"> who is pinocchiop? ♪ ♥︎</h2>
@@ -159,20 +192,44 @@ Select ONE Additional Feature to Add
     <img id="icon" src="img/pinopito logo.jpg" width="15%">
   </center>
 
-
-
   <p> 
     pinocchiop, sometimes abbreviated by fans as pinop, is an INCREDIBLE
     vocaloid producer with sooo many highly successful songs and an instantly
     recognizable style !!!!  hes literally been dropping bangers as
     long as i have been alive ouuuughh, as his first song is from 2009. he usually
     makes songs with hatsune miku but has also used kagamine rin, kagamine len, and 
-    kasane teto.<br>
+    recently kasane teto!<br>
     his tuning style has changed over the years, as in his earlier songs
     miku has a much harsher and deeper tone. now, his miku is usually very
     soft and sweet sounding! both are so beautiful and distinctively pinop!! you can 
     also usually hear his own voice in the background singing with miku, 
     a wonderful signature of his style!! AUGHH STOP I LOVE HIS MUSIC !!! ♥︎
+  </p>
+  <p>
+    an AMAZING fact about him is that he designs, illustrates and creates the MAJORITY
+    OF HIS MUSIC VIDEOS <a id="para" href="https://laguardia-webdev-2024.github.io/3-p-unit-3-project-silly-camilo/" target="blank">
+    (like iyowa)</a> !!!! his character designs r so lovely, filled with visual storytelling and 
+    details that help encapsulate and represent the heart of each individual song so beautifully!!!! 
+    he is sooo super talented srsly!!! <br>
+    he also has these super charming little mascots that appear in all of his 
+    music videos and album covers, called aimaina (left) and doushite-chan (right)!!
+  </p>
+
+  <center>
+    <img class="mascots" src="img/Aimaina_01.webp" width="20%"> 
+    <img class="mascots" src="img/Doshite-Chan_01.png" width="20%">
+  </center>
+
+  <p> aimaina in particular often gets her own unique color palette / outfit to match with each music video! </p>
+
+  <center>
+    <img src="img/insta1.jpg" width="20%">
+    <img src="img/insta2.jpg" width="30%">
+  </center>
+
+  <p>besides his own wonderful artworks, he also occasionally works with other artists!!!
+    for instance, yearly he collaborates with the artist eirinahamono to make breathtaking animated
+    music videos, and he's also collaborated a few times with the artist terada tera, among others!!!
   </p>
   <p>
     for me what stands out most about pinop's songs is HIS BEAUTIFUL LYRICISM.
@@ -190,22 +247,35 @@ Select ONE Additional Feature to Add
     guys i swear his lyrics r soooooooo amazing i cried sooo much AUURGRHRHRHH AUURGRHRGRHRHHHH HH HHUUHUUUU
   </p>
 
-  <h2> slow motion </h2>
-  <hr>
-  <p id="slowmotion">
+  <p>
+    sooo i will take u guys on a super mini tour on some of my fave pinop songs! <br>
+    I REALLY HOPE YOU WILL ENJOY!! ⸜(｡˃ ᵕ ˂ )⸝♡
+  </p>
+
+  <h2 id="song1"> slow motion ⋆˚꩜｡</h2>
+  <center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ARt2fVT33Lw?si=rr6MJp9SdTwnsWV_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </center>
+  <p class="slowmotionp">
     ohhhhhyeahhh
   </p>
   <br><br>
 
+  <h2>nobody makes sense</h2>
+  <center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LtSNzPyo0lA?si=hsDyhk89lHpZvTWq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </center>
+  <p>About Content Element #3</p>
+  <br><br>
+
   <h2>what's inside?</h2>
-  <hr>
+  <center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GSpwTvYgFrM?si=E4OqKjKRG1fYETDS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </center>
   <p>About Content Element #2</p>
   <br><br>
 
-  <h2>nobody makes sense</h2>
-  <hr>
-  <p>About Content Element #3</p>
-  <br><br>
+
 
 </body>
 </html>
